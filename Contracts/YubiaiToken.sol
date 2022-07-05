@@ -23,8 +23,8 @@ contract YubiaiToken is EIP20Interface {
     uint8 public decimals;                // How many decimals to show.
     string public symbol;                 // An identifier: eg SBX
     address public governor;              // Able to mint more tokens.
-
-    constructor(
+    
+function  YubiaiToken(
         string _tokenName,
         uint8 _decimalUnits,
         string _tokenSymbol
